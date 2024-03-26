@@ -1,0 +1,4555 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (501, 11): Syntax error. Unexpected token: if[_IF].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (501, 11): Syntax error. Unexpected token: if[_IF].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 mohammad.v : (508, 17): case/x/z...endcase pair(s) mismatch detected. 1 <endcase> tokens are missing.
+# Error: VCP2020 mohammad.v : (508, 17): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (508, 17): Syntax error. Unexpected token: end[_END].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 mohammad.v : (507, 23): case/x/z...endcase pair(s) mismatch detected. 1 <endcase> tokens are missing.
+# Error: VCP2020 mohammad.v : (507, 23): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (507, 23): Syntax error. Unexpected token: end[_END].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+Traffic_Light_Controller_TB Traffic_Light_Controller_TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.8 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.0 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:13 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# VSIM: 7 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: Error
+# KERNEL: state 0 
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 mohammad.v : (478, 1): Some unconnected ports remain at instance: s. Module analyser has unconnected  port(s) : pos.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 mohammad.v : (478, 1): Some unconnected ports remain at instance: s. Module analyser has unconnected  port(s) : pos.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:14 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Error: VCP2000 mohammad.v : (478, 106): Syntax error. Unexpected token: ,.
+# Error: VCP2000 mohammad.v : (478, 116): Syntax error. Unexpected token: ).
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 27 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:17 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2597 mohammad.v : (478, 1): Some unconnected ports remain at instance: s. Module analyser has unconnected  port(s) : pos.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:19 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 mohammad.v : (507, 27): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 mohammad.v : (507, 27): case/x/z...endcase pair(s) mismatch detected. 1 <case/x/z> tokens are missing.
+# Error: VCP2020 mohammad.v : (507, 27): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (507, 27): Syntax error. Unexpected token: endcase[_ENDCASE].
+# Compile failure 4 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2000 mohammad.v : (501, 19): Syntax error. Unexpected token: 1[__1].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:21 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: Error
+# KERNEL: state 0 
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:22 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# KERNEL: Error
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:24 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: state 0 
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (498, 26): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (498, 26): Syntax error. Unexpected token: else[_ELSE].
+# Error: VCP2000 mohammad.v : (502, 24): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:26 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# KERNEL: state 0 
+# KERNEL: state 1 
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2000 mohammad.v : (499, 23): Syntax error. Unexpected token: if[_IF].
+# Error: VCP2020 mohammad.v : (508, 14): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (508, 14): Syntax error. Unexpected token: end[_END].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2000 mohammad.v : (499, 23): Syntax error. Unexpected token: if[_IF].
+# Error: VCP2020 mohammad.v : (508, 14): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (508, 14): Syntax error. Unexpected token: end[_END].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (500, 25): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:29 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:30 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+run
+run
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (499, 25): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:34 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:35 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4722 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:37 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5103 mohammad.v : (493, 15): Undeclared identifier: s0.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:39 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: state 0 
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:41 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: state 0 
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:41 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:43 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  6:44 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (496, 21): Syntax error. Unexpected token: else[_ELSE].
+# Error: VCP2000 mohammad.v : (499, 9): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (496, 21): Syntax error. Unexpected token: else[_ELSE].
+# Error: VCP2000 mohammad.v : (499, 9): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (496, 21): Syntax error. Unexpected token: else[_ELSE].
+# Error: VCP2000 mohammad.v : (499, 21): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (496, 21): Syntax error. Unexpected token: else[_ELSE].
+# Error: VCP2000 mohammad.v : (499, 21): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (496, 21): Syntax error. Unexpected token: else[_ELSE].
+# Error: VCP2000 mohammad.v : (499, 21): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (496, 21): Syntax error. Unexpected token: else[_ELSE].
+# Error: VCP2000 mohammad.v : (499, 21): Syntax error. Unexpected token: else[_ELSE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  8:55 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 7 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4161 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  8:56 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+run
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# KERNEL: state 0 
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (490, 12): Syntax error. Unexpected token: initial[_INITIAL].
+# Error: VCP2020 mohammad.v : (492, 10): begin...end pair(s) mismatch detected. 1 <begin> tokens are missing.
+# Error: VCP2020 mohammad.v : (492, 10): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (492, 10): Syntax error. Unexpected token: end[_END].
+# Compile failure 4 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (490, 9): Syntax error. Unexpected token: initial[_INITIAL].
+# Error: VCP2000 mohammad.v : (491, 14): Syntax error. Unexpected token: =.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (490, 9): Syntax error. Unexpected token: initial[_INITIAL].
+# Error: VCP2000 mohammad.v : (491, 14): Syntax error. Unexpected token: =.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  8:59 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4723 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  9:00 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 mohammad.v : (508, 17): case/x/z...endcase pair(s) mismatch detected. 1 <endcase> tokens are missing.
+# Error: VCP2020 mohammad.v : (508, 17): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (508, 17): Syntax error. Unexpected token: end[_END].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4724 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  9:02 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4724 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  9:05 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4724 kB (elbread=427 elab2=4162 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  9:06 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4727 kB (elbread=427 elab2=4166 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  9:10 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 mohammad.v : (464, 13): Syntax error. Unexpected token: endmodule[_IDENTIFIER].
+# Error: VCP2020 mohammad.v : (522, 1): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mohammad.v : (522, 1): Syntax error. Unexpected token: non-printable: \x0.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 8 (100.00%) other processes in SLP
+# SLP: 26 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4727 kB (elbread=427 elab2=4166 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\user\Desktop\projectAdvanced\mohammad\src\wave.asdb
+#  9:11 „, «·Ã„⁄…° 27 ﬂ«‰Ê‰ «·À«‰Ì 2023
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/rst" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/go" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/highway_signal_2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Traffic_Light_Controller_TB/farm_signal_2" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/user/Desktop/projectAdvanced/mohammad/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 mohammad.v (461): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /Traffic_Light_Controller_TB/g,  Process: @INITIAL#459_3@.
+# KERNEL: stopped at time: 6 us
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work mohammad $dsn/src/mohammad.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Traffic_Light_Controller_TB.
+# $root top modules: Traffic_Light_Controller_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done

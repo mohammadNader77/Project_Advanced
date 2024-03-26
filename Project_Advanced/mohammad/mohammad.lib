@@ -1,0 +1,53 @@
+timestamp=1674846878746
+
+[~A]
+C:/Users/user/Desktop/projectAdvanced/mohammad/src/mohammad.v=0*477386*479904
+LastVerilogToplevel=Traffic_Light_Controller_TB
+ModifyID=119
+Version=74
+
+[~MFT]
+0=9|0mohammad.mgf|479904|335176
+1=10|1mohammad.mgf|1079862|1072016
+3=20|3mohammad.mgf|1611371|1596113
+
+[$root]
+A/$root=22|||1*1072016
+BinW64/$root=3*1596113
+SLP=3*1596228
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216f8549a187799772b80c91d7350d4939c
+
+[Traffic_Light_Controller]
+A/Traffic_Light_Controller=22|../src/mohammad.v|2|1*1072406
+BinW64/Traffic_Light_Controller=3*1596296
+R=../src/mohammad.v|2
+SLP=3*1602112
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ac92dab4e00bffc54547caf61e380e4add20af768da672159e0666bd65d3f625007e517bba568cd863cb43d2bc1e99dd7d274ba53c8e59e084a4477df4486891
+
+[Traffic_Light_Controller_TB]
+A/Traffic_Light_Controller_TB=22|../src/mohammad.v|508|1*1079862
+BinW64/Traffic_Light_Controller_TB=3*1611234
+R=../src/mohammad.v|508
+SLP=3*1611371
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ac92dab4e00bffc54547caf61e380e4af1eef744a9195923ff72afb754e3600081daaeac22fee2d77042c7bbc25507667d906291547795856144fda09e7213de
+
+[analyser]
+A/analyser=22|../src/mohammad.v|465|1*1078331
+BinW64/analyser=3*1608514
+R=../src/mohammad.v|465
+SLP=3*1610123
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|07acf6aece922780c48b4a3f9a289d559d8b4e8ef1374421143aa6249ef85470ed1f803e6e5105e786f98e37c7622b6a
+
+[gen]
+A/gen=22|../src/mohammad.v|402|1*1077356
+BinW64/gen=3*1605799
+R=../src/mohammad.v|402
+SLP=3*1607374
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|d37e7a5a38548b44237b853ea2b01516b40f3c7bc9dbeac51af4deccb10561ca
+
+[~U]
+$root=12|0*476137|
+Traffic_Light_Controller=12|0*476351|
+Traffic_Light_Controller_TB=12|0*477163||0x10
+analyser=12|0*476952|
+gen=12|0*476767|
